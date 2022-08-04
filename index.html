@@ -1,109 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Javier Capobianco</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="favicon" href="favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="top">
-      <img class="top-cloud" src="images/cloud.png" alt="top-cloud" />
-      <h1>I'm Javier.</h1>
-      <h2>a <span id="software">Software</span> Engineering Student</h2>
-    </div>
-    <img
-      class="bottom-cloud nubesrotation"
-      src="images/cloud.png"
-      alt="bottom-cloud"
-    />
-    <img src="images/mountain.png" alt="mountain" />
-    <div class="middle-container">
-      <div class="profile">
-        <img
-          class="profile-pic"
-          src="images\UniCard-modified.png"
-          alt="UniCard Javi"
-          height="200px"
-          width="200px"
-        />
-        <h2>Hello.</h2>
-        <p color="#45014E">
-          I am an aspiring Software Engineer. Currently I am on my second year
-          attending the University of Calgary.
-        </p>
-      </div>
-      <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img
-            class="Python-Image"
-            alt="Python Image"
-            src="images/python.png"
-          />
-          <h3>Python</h3>
-          <p>
-            I have developed a Machine Learning Model where we imported a
-            dataset, and took the values to form a k-nearest neighbour model.
-            After adding a new instance of the dataset, the model correctly
-            predicted which class the instance should be in. I feel confident in
-            my Python skills, since I have also had practice with File I/O and I
-            have learned many concepts of OOP.
-          </p>
-        </div>
-        <div class="skill-row">
-          <img />
-          <h3>C/C++</h3>
-          <p>
-            I really enjoy working with C/C++. I have worked with File I/O and
-            developed Classes in order to learn more about Object-Oriented
-            Programming. My latest project consisted of taking data from a file
-            and using Linked Lists to go through each of the instances of the
-            dataset and sort them in ascending order.
-          </p>
-        </div>
-      </div>
-      <hr />
-      <div class="contact-me">
-        <!--
-        <h2>Get In Touch</h2>
-        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-        <p>
-          Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales,
-          tellus donec dui, ornare erat.
-        </p>
-        -->
-        <a class="btn" href="mailto:javier.capobianco.2210@gmail.com"
-          >CONTACT ME</a
-        >
-      </div>
-    </div>
 
-    <div class="bottom-container">
-      <a
-        class="footer-link"
-        href="https://www.linkedin.com/in/javier-capobianco/"
-        >LinkedIn</a
-      >
-      <a class="footer-link" href="https://www.instagram.com/javiercapobianco/"
-        >Instagram</a
-      >
-      <a class="footer-link" href="https://javier-capobianco.github.io/website/"
-        >Website</a
-      >
-      <a class="footer-link" href="https://javier-capobianco.github.io/TinDog/">
-        TinDog
-      </a>
-      <p>© Javier Capobianco</p>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Javier Capobianco Website</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Javier Capobianco</span>
+      <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="Javi Foto" /></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+      </ul>
     </div>
-  </body>
+  </nav>
+  <!-- Page Content-->
+  <div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+      <div class="resume-section-content">
+        <span class="d-lg-none"><img class="img-fluid img-profile mb-2 profile-pic" src=" assets/img/profile.png" alt="Javi Foto">
+        </span>
+        <h1 class="mb-0">
+          Javier
+          <span class="text-primary">Capobianco</span>
+        </h1>
+        <div class="subheading mb-5">
+          Calgary, AB · (587) 438-2210 · University of Calgary Student·
+          <a href="mailto:name@email.com">javier.capobianco.2210@gmail.com</a>
+        </div>
+        <p class="lead mb-5">
+          I am a Software Engineering student at the University of Calgary,
+          and I have experience doing web development and building software
+          for real-life applications.
+        </p>
+        <div class="social-icons">
+          <a class="social-icon" href="https://www.linkedin.com/in/javier-capobianco/"><i class="fab fa-linkedin-in"></i></a>
+          <a class="social-icon" href="https://github.com/javier-capobianco"><i class="fab fa-github"></i></a>
+          <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Experience-->
+    <section class="resume-section" id="experience">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Experience</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Programming Instructor</h3>
+            <div class="subheading mb-3">Real Programming 4 Kids</div>
+            <p>
+              I taught students of all ages the core principles of
+              programming, using Python and Java. I built the games with the
+              students using Processing while teaching the basics of game
+              development. We implemented 2D game development basics such as
+              animation, enemy collision detection, floor collision, and
+              movement using the keyboard.
+            </p>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-primary">March 2022 - August 2022</span>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between ">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">P.A.S.S Leader</h3>
+            <div class="subheading mb-3">University of Calgary</div>
+            <p>
+              I was a Peer Assisted Study Sessions Leader that helped students with their programming course. 
+              I created coding problems and small projects for the students and I helped them work through them. 
+              We used the Python language and worked with the modules/libraries Numpy and Matplotlib.
+              
+            </p>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-primary">March 2022 - August 2022</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <hr class="m-0" />
+    <!-- Education-->
+    <section class="resume-section" id="education">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Education</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">University of Calgary</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
+            <div>Major: Software Engineering</div>
+            <div>Minor: Aerospace Engineering</div>
+            <p>GPA: 3.55</p>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-primary">September 2020 - Present</span>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Sir Winston Churchill High School</h3>
+            <!-- <div class="subheading mb-3">Technology Magnet Program</div> -->
+            <p style="padding-top: 2%">GPA: 3.52</p>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-primary">September 2017 - June 2020</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Skills</h2>
+        <div class="subheading mb-3">Programming Languages & Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="fa-brands fa-html5"></i></li>
+          <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+          <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+          <!-- <li class="list-inline-item"><i class="fab fa-angular"></i></li> -->
+          <li class="list-inline-item"><i class="fab fa-react"></i></li>
+          <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+          <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+          <li class="list-inline-item">
+            <i class="fa-brands fa-python"></i>
+          </li>
+          <li class="list-inline-item"><i class="fa-brands fa-java"></i></li>
+          <li class="list-inline-item">
+            <img class="c-icon" src="assets/img/c-icon.png" />
+          </li>
+          <li class="list-inline-item">
+            <img class="cpp-icon" src="assets/img/c++-icon.png" />
+          </li>
+        </ul>
+        <div class="subheading mb-3">Web Projects</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-circle bullet-point"></i></span>
+            <a href="https://javier-capobianco.github.io/TinDog/">TinDog</a>:
+            A website for a fake application.
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-circle bullet-point"></i></span>
+            <a href="https://safe-falls-73296.herokuapp.com/">To-do list</a>:
+            A web application that I did, that implements a singular MongoDB
+            database.
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-circle bullet-point"></i></span>
+            <p>
+              <a href="https://murmuring-ocean-04127.herokuapp.com/">Fake Newsletter Signup</a>: A web application that takes in your name and an email, and
+              adds them to the MailChimp database. It does not send a
+              newsletter. This was just to work with APIs.
+            </p>
+          </li>
+        </ul>
+        <div class="subheading mb-3">Software Projects</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-circle bullet-point"></i></span>
+            <p>
+              Using Python: I have developed a Machine Learning Model where I
+              imported a dataset, and took the values to form a k-nearest
+              neighbour model. After adding a new instance of the dataset, the
+              model correctly predicted which class the instance should be in.
+              I feel confident in my Python skills, since I have also had
+              practice with File I/O and I have learned many concepts of OOP.
+            </p>
+          </li>
+          <li>
+            <span class="fa-li d-lg-block "><i class="fa-solid fa-circle bullet-point"></i></span>
+            <p>
+              Using C/C++:
+              I really enjoy working with C/C++. I have worked with File I/O
+              and developed classes in order to learn more about
+              Object-Oriented Programming. My latest project consisted of
+              taking data from a file and using Linked Lists to go through
+              each of the instances of the dataset and sort them in ascending
+              order.
+            </p>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-circle bullet-point"></i></span>
+            <p>Using Java:
+              My school team and I built an application that creates food hampers for
+              a fake food bank based on the available food that is stored on a database.
+              We used a sql connector to connect to the database on our own local system
+              and created an algorithm that would find the right hamper for the family.
+              We also built a Graphical User Interface (GUI) that makes selecting how many
+              people are in the family a little easier for the user.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <hr class="m-0" />
+  </div>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
